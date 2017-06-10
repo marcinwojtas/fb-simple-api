@@ -49,7 +49,7 @@ public class FacebookServiceFile implements FacebookService {
                 String message = post.getMessage();
                 String[] words = message.split("\\W+");
                 for (String w : words) {
-                    if (NumberUtils.isCreatable(w) || w.isEmpty()) {
+                    if (!isValidWord(w)) {
                         continue;
                     }
 
@@ -87,7 +87,7 @@ public class FacebookServiceFile implements FacebookService {
                 String message = post.getMessage();
                 String[] words = message.split("\\W+");
                 for (String word : words) {
-                    if (word.equalsIgnoreCase(keyword)) {
+                    if (isValidWord(word) && word.equalsIgnoreCase(keyword)) {
                         postIds.add(post.getId());
                     }
                 }
@@ -108,5 +108,9 @@ public class FacebookServiceFile implements FacebookService {
         }
 
         return facebooks;
+    }
+
+    private Boolean isValidWord(String word) {
+        return !(NumberUtils.isCreatable(word) || word.isEmpty());
     }
 }
