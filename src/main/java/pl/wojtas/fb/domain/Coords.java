@@ -7,7 +7,8 @@ public class Coords {
     private Double lon;
     private Double lat;
 
-    protected Coords() {}
+    protected Coords() {
+    }
 
     public Coords(Double lon, Double lat) {
         this.lon = lon;

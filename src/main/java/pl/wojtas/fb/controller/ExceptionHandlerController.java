@@ -14,9 +14,11 @@ public class ExceptionHandlerController {
 
     @ExceptionHandler(value = NotFoundException.class)
     @ResponseStatus(NOT_FOUND)
-    public void handleNotFound() {}
+    public void handleNotFound() {
+    }
 
     @ExceptionHandler(value = InternalException.class)
     @ResponseStatus(INTERNAL_SERVER_ERROR)
-    public void handleInternal() {}
+    public void handleInternal() {
+    }
 }

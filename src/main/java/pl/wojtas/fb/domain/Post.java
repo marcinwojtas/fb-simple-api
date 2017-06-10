@@ -7,7 +7,8 @@ public class Post {
     private String id;
     private String message;
 
-    protected Post() {}
+    protected Post() {
+    }
 
     public Post(String id, String message) {
         this.id = id;

@@ -21,7 +21,8 @@ public class Facebook {
     private String relationship;
     private List<Post> posts;
 
-    protected Facebook() {}
+    protected Facebook() {
+    }
 
     public Facebook(String id, Long birthday, String firstname, String lastname, String occupation, String gender, City city, String work, Set<String> friends, String school, String location, String relationship, List<Post> posts) {
         this.id = id;

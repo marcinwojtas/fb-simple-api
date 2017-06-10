@@ -22,9 +22,10 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
+import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.is;
+import static org.junit.Assert.assertThat;
 import static org.mockito.Mockito.*;
-import static org.junit.Assert.*;
-import static org.hamcrest.Matchers.*;
 
 @RunWith(DataProviderRunner.class)
 public class FacebookClientFileTest {
@@ -180,7 +181,7 @@ public class FacebookClientFileTest {
     @Test(expected = InternalException.class)
     public void shouldReturnInternalExceptionFromMapper() throws Exception {
         Set<File> files = new HashSet<File>() {{
-                add(mock(File.class));
+            add(mock(File.class));
         }};
 
         when(fileReader.readFromPath(path, "json")).thenReturn(new HashSet<File>() {{

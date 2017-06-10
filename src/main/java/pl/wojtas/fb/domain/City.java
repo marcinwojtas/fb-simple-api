@@ -9,7 +9,8 @@ public class City {
     private String stateName;
     private Coords coords;
 
-    protected City() {}
+    protected City() {
+    }
 
     public City(String countryName, String cityName, String stateName, Coords coords) {
         this.countryName = countryName;

@@ -1,6 +1,6 @@
 package pl.wojtas.fb.exception;
 
-public class NotFoundException extends Exception{
+public class NotFoundException extends Exception {
     public NotFoundException() {
     }
 

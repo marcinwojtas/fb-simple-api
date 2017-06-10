@@ -8,5 +8,6 @@ import java.util.Set;
 
 public interface FacebookClient {
     Set<Facebook> getAll() throws InternalException;
+
     Facebook getById(String id) throws NotFoundException, InternalException;
 }

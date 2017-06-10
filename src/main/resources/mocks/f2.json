@@ -1,33 +1,52 @@
 {
-      "id" : "2",
-      "birthday" : 13,
-      "firstname" : "Kuna",
-      "lastname" : "Matata",
-      "occupation" : "Direct Applications Administrator",
-      "gender" : "female",
-      "city" : {
-        "countryName" : "United Kingdom",
-        "cityName" : "London",
-        "stateName" : "England",
-        "coords" : {
-          "lon" : -0.12574,
-          "lat" : 51.50853
-        }
-      },
-      "work" : "Lebsack - Rippin",
-      "friends" : [ "68", "38", "122", "115", "127", "128", "91", "82", "31", "53", "32", "65", "76", "87" ],
-      "school" : "Walter, Cartwright and Jerde",
-      "location" : "London",
-      "relationship" : "Married",
-      "posts" : [ {
-        "id" : "11",
-        "message" : " love this tv. I was going to purchase a 55 inch but saw this 48 inch. It's perfect for me. I love the features on it and the different things you can do on it. The apps available to you as well as your own downloaded apps. I was surprised it came with 3d. I ordered some 3d movies and have watched a few and the picture is clear. The only thing is that there was no instructions for the 3d glasses."
-      }, {
-        "id" : "12",
-        "message" : "Great picture detail, resolution. Works faster and smarter than our older 1080p TV. Love the upscale that this TV includes...until we get more content. Love the point/laser style remote control. Works faster than scrolling up/down/sideways. If you want a top of the line TV, this one is awesome!"
-      }, {
-        "id" : "13",
-        "message" : "I have always had Vizio televisions but after I saw my father's Samsung I knew I had to have one! Love the curve, it's so gentle on the eyes."
-      } ]
+  "id": "2",
+  "birthday": 13,
+  "firstname": "Kuna",
+  "lastname": "Matata",
+  "occupation": "Direct Applications Administrator",
+  "gender": "female",
+  "city": {
+    "countryName": "United Kingdom",
+    "cityName": "London",
+    "stateName": "England",
+    "coords": {
+      "lon": -0.12574,
+      "lat": 51.50853
+    }
+  },
+  "work": "Lebsack - Rippin",
+  "friends": [
+    "68",
+    "38",
+    "122",
+    "115",
+    "127",
+    "128",
+    "91",
+    "82",
+    "31",
+    "53",
+    "32",
+    "65",
+    "76",
+    "87"
+  ],
+  "school": "Walter, Cartwright and Jerde",
+  "location": "London",
+  "relationship": "Married",
+  "posts": [
+    {
+      "id": "11",
+      "message": " love this tv. I was going to purchase a 55 inch but saw this 48 inch. It's perfect for me. I love the features on it and the different things you can do on it. The apps available to you as well as your own downloaded apps. I was surprised it came with 3d. I ordered some 3d movies and have watched a few and the picture is clear. The only thing is that there was no instructions for the 3d glasses."
+    },
+    {
+      "id": "12",
+      "message": "Great picture detail, resolution. Works faster and smarter than our older 1080p TV. Love the upscale that this TV includes...until we get more content. Love the point/laser style remote control. Works faster than scrolling up/down/sideways. If you want a top of the line TV, this one is awesome!"
+    },
+    {
+      "id": "13",
+      "message": "I have always had Vizio televisions but after I saw my father's Samsung I knew I had to have one! Love the curve, it's so gentle on the eyes."
+    }
+  ]
 }
      

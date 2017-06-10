@@ -13,12 +13,12 @@ import pl.wojtas.fb.domain.Post;
 import pl.wojtas.fb.exception.InternalException;
 import pl.wojtas.fb.exception.NotFoundException;
 
-import java.sql.Array;
 import java.util.*;
 
+import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.is;
+import static org.junit.Assert.assertThat;
 import static org.mockito.Mockito.*;
-import static org.junit.Assert.*;
-import static org.hamcrest.Matchers.*;
 
 @RunWith(DataProviderRunner.class)
 public class FacebookServiceFileTest {
@@ -248,70 +248,70 @@ public class FacebookServiceFileTest {
         return new Object[][]{
             {
                 new HashSet<Facebook>() {{
-                        add(new Facebook(
-                            "1",
-                            1L,
-                            "Krzysztof",
-                            "Krawczyk",
-                            "occupation-exmapl",
-                            "gender",
-                            new City("pl", "krk", "state", new Coords(1.2, 1.3)),
-                            "wrk",
-                            new HashSet<String>() {{
-                                add("a");
-                                add("b");
-                            }},
-                            "school",
-                            "location",
-                            "relations",
-                            new ArrayList<Post>() {{
-                                add(new Post("1", "p1"));
-                                add(new Post("2", "p2"));
-                            }}
-                        ));
-                        add(new Facebook(
-                            "2",
-                            1L,
-                            "Adam",
-                            "Krawczyk",
-                            "occupation-exmapl",
-                            "gender",
-                            new City("pl", "krk", "state", new Coords(1.2, 1.3)),
-                            "wrk",
-                            new HashSet<String>() {{
-                                add("a");
-                                add("b");
-                            }},
-                            "school",
-                            "location",
-                            "relations",
-                            new ArrayList<Post>() {{
-                                add(new Post("1", "p1"));
-                                add(new Post("2", "p2"));
-                            }}
-                        ));
-                        add(new Facebook(
-                            "3",
-                            1L,
-                            "Krzysztof",
-                            "Adamczyk",
-                            "occupation-exmapl",
-                            "gender",
-                            new City("pl", "krk", "state", new Coords(1.2, 1.3)),
-                            "wrk",
-                            new HashSet<String>() {{
-                                add("a");
-                                add("b");
-                            }},
-                            "school",
-                            "location",
-                            "relations",
-                            new ArrayList<Post>() {{
-                                add(new Post("1", "p1"));
-                                add(new Post("2", "p2"));
-                            }}
-                        ));
-                    }},
+                    add(new Facebook(
+                        "1",
+                        1L,
+                        "Krzysztof",
+                        "Krawczyk",
+                        "occupation-exmapl",
+                        "gender",
+                        new City("pl", "krk", "state", new Coords(1.2, 1.3)),
+                        "wrk",
+                        new HashSet<String>() {{
+                            add("a");
+                            add("b");
+                        }},
+                        "school",
+                        "location",
+                        "relations",
+                        new ArrayList<Post>() {{
+                            add(new Post("1", "p1"));
+                            add(new Post("2", "p2"));
+                        }}
+                    ));
+                    add(new Facebook(
+                        "2",
+                        1L,
+                        "Adam",
+                        "Krawczyk",
+                        "occupation-exmapl",
+                        "gender",
+                        new City("pl", "krk", "state", new Coords(1.2, 1.3)),
+                        "wrk",
+                        new HashSet<String>() {{
+                            add("a");
+                            add("b");
+                        }},
+                        "school",
+                        "location",
+                        "relations",
+                        new ArrayList<Post>() {{
+                            add(new Post("1", "p1"));
+                            add(new Post("2", "p2"));
+                        }}
+                    ));
+                    add(new Facebook(
+                        "3",
+                        1L,
+                        "Krzysztof",
+                        "Adamczyk",
+                        "occupation-exmapl",
+                        "gender",
+                        new City("pl", "krk", "state", new Coords(1.2, 1.3)),
+                        "wrk",
+                        new HashSet<String>() {{
+                            add("a");
+                            add("b");
+                        }},
+                        "school",
+                        "location",
+                        "relations",
+                        new ArrayList<Post>() {{
+                            add(new Post("1", "p1"));
+                            add(new Post("2", "p2"));
+                        }}
+                    ));
+                }},
                 new ArrayList<String>() {{
                     add("2");
                     add("3");
