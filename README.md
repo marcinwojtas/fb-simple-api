@@ -1,4 +1,4 @@
-#simple-fb-api
+# fb-simple-api
 
 Application getting data from facebook mock files.
 
