@@ -1,0 +1,33 @@
+{
+      "id" : "4",
+      "birthday" : 401280850089,
+      "firstname" : "Adam",
+      "lastname" : "Janus",
+      "occupation" : "Direct Applications Administrator",
+      "gender" : "female",
+      "city" : {
+        "countryName" : "United Kingdom",
+        "cityName" : "London",
+        "stateName" : "England",
+        "coords" : {
+          "lon" : -0.12574,
+          "lat" : 51.50853
+        }
+      },
+      "work" : "Lebsack - Rippin",
+      "friends" : [ "68", "38", "122", "115", "127", "128", "91", "82", "31", "53", "32", "65", "76", "87" ],
+      "school" : "Walter, Cartwright and Jerde",
+      "location" : "London",
+      "relationship" : "Married",
+      "posts" : [ {
+        "id" : "31",
+        "message" : "Owned it two months and still haven't used all the features! The pictures is absolutely amazing! All the Smart TV services are overwhelming! Spectacular center piece for our new living room!"
+      }, {
+        "id" : "32",
+        "message" : "was created to help with debugging. As JSON data is often output without line breaks to save space, it is extremely difficult to actually read and make sense of it. This little tool hoped to solve the problem by formatting the JSON data so that it is easy"
+      }, {
+        "id" : "33",
+        "message" : "JSON or JavaScript Object Notation is a language-independent open data format that uses human-readable text to express data objects consisting of attribute-value pairs."
+      } ]
+}
+     

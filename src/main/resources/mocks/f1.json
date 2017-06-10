@@ -1,0 +1,33 @@
+{
+      "id" : "1",
+      "birthday" : 5,
+      "firstname" : "Luna",
+      "lastname" : "Kling",
+      "occupation" : "Direct Applications Administrator",
+      "gender" : "female",
+      "city" : {
+        "countryName" : "United Kingdom",
+        "cityName" : "London",
+        "stateName" : "England",
+        "coords" : {
+          "lon" : -0.12574,
+          "lat" : 51.50853
+        }
+      },
+      "work" : "Lebsack - Rippin",
+      "friends" : [ "68", "38", "122", "115", "127", "128", "91", "82", "31", "53", "32", "65", "76", "87" ],
+      "school" : "Walter, Cartwright and Jerde",
+      "location" : "London",
+      "relationship" : "Married",
+      "posts" : [ {
+        "id" : "1",
+        "message" : "Beautiful picture. Curve is nice if you sit within The radius. Nice interface. Enjoyable to watch TV and YouTube as well Netflix. Like the voice recognition software."
+      }, {
+        "id" : "2",
+        "message" : "What a great picture, what great sound.! No more glare.!!!! I love this TV. I bought this on for $1299.00 the Sunday before black Friday. Have only seen it on sale for $1499.00 since then. All the apps were very intimidating at first but I got used to them very fast. Sometimes I feel as though I have my theater system on, that's how good the sound is. The easiest part was setting it up. Took 30 minutes and I was watching TV. I'm still reading the manual. Can't say enough good things about this TV."
+      }, {
+        "id" : "3",
+        "message" : "We definitely wound up with buyers remorse once we got it home and set up. Yes, it is that fraction of a step up from the 55 inch Samsung we purchased a few years ago, but truly, just a fraction better. It is not that WOW you want to yell once you spend twice as much as the same size new best in class TVs that are not the OLED. We definitely go by the new TV's now and just shake our heads at our mistake. Not mad about it, just disappointed in ourselves."
+      } ]
+}
+     

@@ -1,0 +1,33 @@
+{
+      "id" : "3",
+      "birthday" : 10,
+      "firstname" : "Pora",
+      "lastname" : "Kawowa",
+      "occupation" : "Direct Applications Administrator",
+      "gender" : "female",
+      "city" : {
+        "countryName" : "United Kingdom",
+        "cityName" : "London",
+        "stateName" : "England",
+        "coords" : {
+          "lon" : -0.12574,
+          "lat" : 51.50853
+        }
+      },
+      "work" : "Lebsack - Rippin",
+      "friends" : [ "68", "38", "122", "115", "127", "128", "91", "82", "31", "53", "32", "65", "76", "87" ],
+      "school" : "Walter, Cartwright and Jerde",
+      "location" : "London",
+      "relationship" : "Married",
+      "posts" : [ {
+        "id" : "21",
+        "message" : "Pretty spendy tv. But was worth it. Amazing picture and opoptions. You just gotta know how to use them and get th best out of it."
+      }, {
+        "id" : "22",
+        "message" : "here isn't much for me to say negative about this set but maybe a few things: one, connecting a regular coaxial to the back port of the unit is a pain because of the design choice that leaves very little wiggle room, so I only recommend using HDMI for everything HD. Two, I noticed while watching certain older shows or fast animation, particularly with 3D on, this TV does exhibit a little afterimage, but after a while you will ignore it or will have to make picture adjustments to solve the problem. I recommend adjusting the picture settings to turn off smoothing or some other digital picture option to alleviate this. (This wasn't for everything, mind you.) Third, the important one of it all, of course was price. $3,500 is expensive for a lot of people. Try to catch this beast while it is on sale."
+      }, {
+        "id" : "23",
+        "message" : "When it came to getting a new tv I was torn between this OLED or a 4K LED tv. One thing that has always bothered me about LED tvs is that on dark scenes in movies you can see the edge lighting. With OLED you do not have this issue since every pixel is individually lit. I know they do make some new 4k LED tvs now with backlighting instead of edge lighting; however, even these did not look as good to me as this OLED. When you compare the sharpness, contrast, and just the overall picture quality I just could not find a tv that could come close to this OLED."
+      } ]
+}
+     
