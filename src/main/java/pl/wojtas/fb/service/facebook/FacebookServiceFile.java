@@ -47,7 +47,6 @@ public class FacebookServiceFile implements FacebookService {
             List<Post> posts = facebook.getPosts();
             for (Post post : posts) {
                 String message = post.getMessage();
-                Long currentCount = 1L;
                 String[] words = message.split("\\W+");
                 for (String w : words) {
                     if (NumberUtils.isCreatable(w) || w.isEmpty()) {
@@ -55,10 +54,11 @@ public class FacebookServiceFile implements FacebookService {
                     }
 
                     String word = w.toLowerCase();
+
                     if (commonWords.containsKey(word)) {
                         commonWords.put(word, commonWords.get(word) + 1);
                     } else {
-                        commonWords.put(word, currentCount);
+                        commonWords.put(word, 1L);
                     }
                 }
             }
