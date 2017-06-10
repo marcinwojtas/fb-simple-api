@@ -20,7 +20,6 @@ public class FacebookServiceFile implements FacebookService {
     private FacebookClient facebookClient;
     private Logger logger = LoggerFactory.getLogger(FacebookServiceFile.class);
 
-
     @Autowired
     public FacebookServiceFile(FacebookClient facebookClient) {
         this.facebookClient = facebookClient;

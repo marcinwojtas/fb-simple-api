@@ -29,7 +29,6 @@ public class FacebookClientFile implements FacebookClient {
         this.resourceFileReader = resourceFileReader;
     }
 
-
     public Set<Facebook> getAll() throws InternalException {
         Set<File> files = new HashSet<>();
 
